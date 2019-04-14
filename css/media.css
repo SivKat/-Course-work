@@ -1,0 +1,250 @@
+@media only screen and (max-width: 1450px){    
+    .bottom{
+        margin-right: 50px;
+        margin-left: 50px;  
+    }
+}
+
+@media only screen and (max-width: 1050px){    
+    .bottom{
+        margin-right: 30px;
+        margin-left: 30px; 
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .slider-container{
+        padding-bottom: 35%;
+    }   
+}
+
+@media only screen and (max-width: 900px){    
+    .logotxt{
+        font-size: 100%;
+        margin-top: 15px; 
+    }
+    .head_txt{
+        font-size: 14pt;
+    }
+    .foot{
+        padding-top: 1%; 
+    }
+    .bottom{
+        margin-right: 15px;
+        margin-left: 15px; 
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .foot{
+        font: 11pt Arial;
+    }
+    .hr_line{
+        width: 100px;
+    }    
+}
+
+@media only screen and (max-width: 750px){
+    .head{
+        height: 80px;
+    }
+    .ico{
+        width: 75px;
+        height: 75px;
+    }
+    .slider-container{
+        padding-bottom: 37%;
+    }
+    .instruction_text, .text_reason, .text_head{
+        font: 14pt Arial;
+    }
+    .round_base{
+        margin-left: 30px;
+        width: 75px;
+        height: 75px;    
+    }
+    .round_add{
+        background-image: url('../img/load_small.png');
+    }
+    .round_description{
+        background-image: url('../img/descrip_small.png');
+    }
+    .round_price{
+        background-image: url('../img/price_small.png');
+    }
+    .text_count{  
+        font: 16pt Arial;
+    }
+    .text_what, .text_mail, .text_description{
+        font: 11pt Arial;
+    }
+    .line{
+        height: 50px;
+    }
+    .examples{
+        font: 10pt Arial;
+    }      
+}
+
+@media only screen and (max-width: 700px){    
+    .searchmenu{        
+        height: 40px;
+        width: 35vw;
+    }
+    .round_area{
+        margin-left: 0;
+    }
+    #arrow_next label, #arrow_prev label{
+        top: 35%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .slider-container{
+        padding-bottom: 39%;
+    }    
+    .head_txt{
+        font-size: 12pt;
+    }
+    .searchbut{
+        height: 20px;
+        width: 20px;    
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .head{
+        height: 60px;
+    }    
+    .searchmenu{        
+        height: 30px;
+        width: 30vw;
+    }
+    .column{
+        max-width: 48%;
+    }
+    .row, .column{
+        flex-basis: 50%;
+        flex-wrap: wrap;
+    }
+    .progress, .round_area{
+        flex-basis: 30%;
+        flex-wrap: wrap;
+    }
+    .examples, .block{
+        flex-basis: 30%;
+        flex-wrap: wrap;
+    }
+    .enter_mail{
+        height: 25px;
+        width: 200px;
+    }
+    .foot, .bottom{
+        flex-basis: 40%;
+        flex-wrap: wrap;
+    }
+    .foot{
+        height: 300px;
+    }
+    #arrow_next label, #arrow_prev label{
+        font-size: 50px;
+    }
+    #arrow_prev label{
+        left: -30px;
+    }
+    #arrow_next label{
+        right: -30px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .head_txt{
+        display: none;
+    }
+    .searchmenu{        
+        height: 35px;
+        width: 45vw;
+        font-size: 10pt;
+    } 
+    .examples, .block{
+        flex-basis: 40%;        
+    }
+    .row, .column{
+        flex-basis: 35%;
+    }
+    .instruction_add, .round_base{
+        flex-basis: 5%;
+        flex-wrap: wrap;
+    }
+    .text_head{    
+        margin: 5px;
+        text-align: center;
+        font: 12pt Arial;       
+    }
+    .text_description{
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        font: 10pt Arial;;
+    }
+    .round_base{
+        margin-left: 40%;
+    }
+    .round_small{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+    .text_count{
+        font: 12pt Arial;
+    }
+    .text_what{
+        font: 10pt Arial;
+    }
+    .progress, .round_area{
+        flex-basis: 45%;
+    }
+    .progress{
+        justify-content: flex-start;
+    }    
+}
+
+@media only screen and (max-width: 400px){
+    .slider-container{
+        padding-bottom: 41%;
+    }   
+    .logotxt{
+        font-size: 95%;
+        margin-top: 0;
+    }   
+}
+
+@media only screen and (max-width: 350px){
+    .slider-container{
+        padding-bottom: 42%;
+    }    
+    .foot{
+        font: 10pt Arial;
+    }
+    .bottom{
+        margin-right: 10px;
+        margin-left: 10px; 
+    }     
+}
+
+@media only screen and (max-width: 300px){    
+    .foot{
+        font: 9pt Arial;
+    }
+    .bottom{
+        margin-right: 5px;
+        margin-left: 5px; 
+    }    
+}
+
+@media only screen and (max-width: 275px){    
+    .foot{
+        height: 450px;
+    }
+}

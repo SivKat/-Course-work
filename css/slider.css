@@ -1,0 +1,86 @@
+.slider-container{
+    position: relative;
+    width: 80%;
+    height: 0;
+    margin: 0 auto;
+    padding-bottom: 33%;
+}
+
+.slider{
+    width: 100%;
+    height: 65vh;
+    background-image: url("../img/fon_main.png");
+    background-size: 100%;
+    background-repeat: no-repeat; 
+}  
+
+#arrow_next label, #arrow_prev label{
+    position: absolute;
+    visibility: hidden;
+    cursor: pointer;
+    top: 40%;
+    font-size: 80px;
+}
+#arrow_prev label{
+    left: -40px;
+}
+#arrow_next label{
+    right: -40px;
+}
+
+.switchers{
+    display: flex;
+    justify-content: center;
+}
+.switcher{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: black;   
+    cursor: pointer;
+}
+
+#in1:checked ~ .slider{
+    background-image: url("../img/fon_main.png");
+}
+#in2:checked ~ .slider{
+    background-image: url("../img/fon_flower.jpg");     
+}
+#in3:checked ~ .slider{
+    background-image: url("../img/fon_soap.png");
+}
+#in4:checked ~ .slider{
+    background-image: url("../img/fon_cake.png");
+}
+#in5:checked ~ .slider{
+    background-image: url("../img/fon_wallet.png");
+}
+
+#in1:checked ~ div #switcher1,
+#in2:checked ~ div #switcher2,
+#in3:checked ~ div #switcher3,
+#in4:checked ~ div #switcher4,
+#in5:checked ~ div #switcher5{
+    background-color: purple;
+}
+
+#in1:checked ~ #arrow_next label:nth-child(2),
+#in2:checked ~ #arrow_next label:nth-child(3),
+#in3:checked ~ #arrow_next label:nth-child(4),
+#in4:checked ~ #arrow_next label:nth-child(5),
+#in5:checked ~ #arrow_next label:nth-child(1){
+    visibility: visible;
+}
+
+#in1:checked ~ #arrow_prev label:nth-child(5),
+#in2:checked ~ #arrow_prev label:nth-child(1),
+#in3:checked ~ #arrow_prev label:nth-child(2),
+#in4:checked ~ #arrow_prev label:nth-child(3),
+#in5:checked ~ #arrow_prev label:nth-child(4){
+    visibility: visible;
+}
+
+.hide{
+    display: none;
+}

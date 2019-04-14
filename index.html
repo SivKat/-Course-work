@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Продажа изделий ручной работы</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="head">
+        <!--Логотип-->
+        <div class="logo">
+            <img src="img/logo.jpg" alt="ico"  class="ico">
+            <!--Название-->
+            <span class="logotxt">Hand<br>to<br>hands</span>
+        </div>
+        <!--Поиск-->
+        <div  class="headbutton">
+            <form>
+                <input type="search" placeholder="Введите запрос" class="searchmenu"> 
+                <button class="searchbut"><i class="fas fa-search"></i></button>                            
+            </form>
+            <p class="head_txt">Творите и зарабатывайте<br>вместе с нами!</p>
+        </div>       
+    </header>
+
+    <content>
+        <!--Слайдер-->
+        <div class="slider-container">
+            <input type="radio" name="img" class="hide" id="in1" checked>
+            <input type="radio" name="img" class="hide" id="in2">
+            <input type="radio" name="img" class="hide" id="in3">
+            <input type="radio" name="img" class="hide" id="in4">
+            <input type="radio" name="img" class="hide" id="in5">            
+
+            <div id="arrow_next">
+                <label for="in1"><i class="fa fa-angle-right" aria-hidden="true"></i></label>
+                <label for="in2"><i class="fa fa-angle-right" aria-hidden="true"></i></label>
+                <label for="in3"><i class="fa fa-angle-right" aria-hidden="true"></i></label>
+                <label for="in4"><i class="fa fa-angle-right" aria-hidden="true"></i></label>
+                <label for="in5"><i class="fa fa-angle-right" aria-hidden="true"></i></label>
+            </div>
+
+            <div id="arrow_prev">
+                <label for="in1"><i class="fa fa-angle-left" aria-hidden="true"></i></label>
+                <label for="in2"><i class="fa fa-angle-left" aria-hidden="true"></i></label>
+                <label for="in3"><i class="fa fa-angle-left" aria-hidden="true"></i></label>
+                <label for="in4"><i class="fa fa-angle-left" aria-hidden="true"></i></label>
+                <label for="in5"><i class="fa fa-angle-left" aria-hidden="true"></i></label>
+            </div>
+
+            <div class="switchers">
+                <label class="switcher" id="switcher1" for="in1"></label>
+                <label class="switcher" id="switcher2" for="in2"></label>
+                <label class="switcher" id="switcher3" for="in3"></label>
+                <label class="switcher" id="switcher4" for="in4"></label>
+                <label class="switcher" id="switcher5" for="in5"></label>   
+            </div> 
+            
+            <div class="slider"></div>
+        </div>           
+
+        <!--что продают вместе с нами-->
+        <section class="examples">
+            <div class="block">
+                <img class="display_img" src="img/knitting.jpg" alt="knitting">
+                <p>Создадим уникальное вязаное изделие для Вас</p>
+            </div>
+            <div class="block">
+                <img class="display_img" src="img/soap.jpg" alt="soap">
+                <p>Натуральные компоненты для мыловарения и создания домашней косметики</p>
+            </div>
+            <div class="block">
+                <img class="display_img" src="img/dolls.jpg" alt="dolls">
+                <p>Авторские куклы ручной работы</p>
+            </div>   
+            <div class="block">
+                <img class="display_img" src="img/flowers.jpg" alt="flowers">
+                <p>Коллекции эксклюзивной флористики от ведущих флористов</p>
+            </div>           
+            <div class="block">
+                <img class="display_img" src="img/bags.jpg" alt="bags">
+                <p>Индивидуальный пошив аксессуаров с учетом ваших пожеланий</p>
+            </div>                 
+            <div class="block">
+                <img class="display_img" src="img/brooch.png" alt="brooch">
+                <p>Деревянные значки и броши, живопись по дереву</p>
+            </div>
+        </section>
+
+        <section>
+            <p class="instruction_text">Коллекции вязаных изделий</p>
+            <!-- Photo grid -->
+            <div class="row"> 
+                <div class="column">
+                    <img src="img/collection_knit1.jpg" style="width:100%" alt="knitting">
+                    <img src="img/collection_knit2.jpg" height="35%" style="width:100%" alt="knitting">
+                </div>
+        
+                <div class="column">
+                    <img src="img/collection_knit3.jpg" style="width:100%" alt="knitting">
+                    <img src="img/collection_knit4.png" style="width:100%" alt="knitting">
+                </div> 
+
+                <div class="column">
+                    <img src="img/collection_knit5.png" style="width:100%" alt="knitting">
+                    <img src="img/collection_knit6.png" style="width:100%" alt="knitting">
+                </div> 
+
+                <div class="column">
+                    <img src="img/collection_knit7.jpg" style="width:100%" alt="knitting">
+                    <img src="img/collection_knit8.jpg" style="width:100%" alt="knitting">
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <p class="instruction_text">Как добавить изделия на страницу?</p>
+            <div class="instruction_add">
+                <div>
+                <div class="round_base round_add"></div>
+                    <p class="text_head">Фото</p>
+                    <p class="text_description">1. Загрузите снимки своих работ.</p>
+                </div>
+
+                <div>
+                    <div class="round_base round_description"></div>
+                    <p class="text_head">Описание</p>
+                    <p class="text_description">2. Добавьте описание изделий.</p>
+                </div>
+                
+                <div>
+                    <div class="round_base round_price"></div>
+                    <p class="text_head">Цена</p>
+                    <p class="text_description">3. Установите желаемую цену.</p>
+                </div>
+            </div>                  
+        </section>
+
+        <section class="reason">
+            <p class="text_reason">Наши достижения</p>
+            <div class="progress">
+                <div class="round_area">
+                    <span class="round_small"></span>
+                    <span class="line"></span>
+                    <span class="round_big sellers"></span>
+                </div>
+                <div>               
+                    <p class="text_count">1278</p>
+                    <p class="text_what">Продавцов</p>
+                </div> 
+
+                <div class="round_area">
+                    <span class="round_small"></span>
+                    <span class="line"></span>
+                    <span class="round_big works"></span>
+                </div>
+                <div>             
+                    <p class="text_count">15450</p>
+                    <p class="text_what">Уникальных<br> работ</p>
+                </div>
+                
+                <div class="round_area">
+                    <span class="round_small"></span>
+                    <span class="line"></span>
+                    <span class="round_big total_orders"></span>
+                </div>
+                <div>                    
+                    <p class="text_count">5926</p>
+                    <p class="text_what">Заказов</p>
+                </div>
+
+                <div class="round_area">
+                    <span class="round_small"></span>
+                    <span class="line"></span>
+                    <span class="round_big money"></span>
+                </div>
+                <div>
+                    <p class="text_count">2523457</p>
+                    <p class="text_what">грн на сумму</p>
+                </div>  
+            </div>
+        </section>
+
+        <!--Подписка-->
+        <section class="mail">
+            <p class="text_mail">Идеи для подарков, подборки от редакторов и новинки  получайте на свой электронный адрес</p>
+            <form class="mail_button">
+                <input type="email" placeholder="Ваш e-mail" class="enter_mail">
+                <button type="submit" class="subscribe_button"></button> 
+            </form>           
+        </section>
+    </content>
+    
+    <!--Футер-->
+    <footer class="foot">
+        <section class="bottom">
+            <p class="icfoot_txt">Hand to hands</p>
+            <div class="hr_line"></div>
+            <p class="indent">© 2016-2019</p>
+            <p>hand2hands.ua</p>
+        </section>                    
+        
+        <section class="bottom">
+            <p class="indent">Карта сайта</p>
+            <div class="hr_line"></div>
+            <p class="indent">Коллекции</p>
+            <p class="indent">Инструкции</p>
+            <p class="indent">Наши достижения</p>
+        </section>                  
+        
+        <section class="bottom">
+            <p class="indent">О нас</p>
+            <div class="hr_line"></div>
+            <p class="indent">Контакты</p>
+            <p class="indent">Помощь</p>
+            <p class="indent">Блог</p>
+        </section>                     
+        
+        <section class="bottom">      
+            <p class="indent">Мы в соц. сетях</p>
+            <div class="hr_line"></div>
+            <form class="indent">
+                <button class="facebook but_size"></button>
+                <button class="insta but_size"></button>
+                <button class="ytube but_size"></button>
+            </form>                 
+        </section>        
+    </footer>
+</body>
+</html>
